@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-jordan2-database-config
+data:
+  VECTORDB_HOST: "test-jordan2-database"
+  VECTORDB_PORT: ""
